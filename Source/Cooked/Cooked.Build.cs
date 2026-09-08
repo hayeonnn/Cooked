@@ -18,13 +18,21 @@ public class Cooked : ModuleRules
 			"StateTreeModule",
 			"GameplayStateTreeModule",
 			"UMG",
-			"Slate"
+			"Slate",
+
+			// Gameplay Abilities. The plugin is enabled in the .uproject, but the
+			// module was never linked, so the ability graphs could only ever be
+			// Blueprint. UAttributeSet cannot be authored in Blueprint at all.
+			"GameplayAbilities",
+			"GameplayTags",
+			"GameplayTasks"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
 			"Cooked",
+			"Cooked/Rice",
 			"Cooked/Variant_Platforming",
 			"Cooked/Variant_Platforming/Animation",
 			"Cooked/Variant_Combat",
