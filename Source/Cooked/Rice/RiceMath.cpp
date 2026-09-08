@@ -1,4 +1,4 @@
-#include "Rice/RiceMath.h"
+﻿#include "Rice/RiceMath.h"
 
 namespace
 {
