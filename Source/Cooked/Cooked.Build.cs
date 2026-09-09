@@ -14,9 +14,6 @@ public class Cooked : ModuleRules
 			"Engine",
 			"InputCore",
 			"EnhancedInput",
-			"AIModule",
-			"StateTreeModule",
-			"GameplayStateTreeModule",
 			"UMG",
 			"Slate",
 
@@ -32,20 +29,7 @@ public class Cooked : ModuleRules
 
 		PublicIncludePaths.AddRange(new string[] {
 			"Cooked",
-			"Cooked/Rice",
-			"Cooked/Variant_Platforming",
-			"Cooked/Variant_Platforming/Animation",
-			"Cooked/Variant_Combat",
-			"Cooked/Variant_Combat/AI",
-			"Cooked/Variant_Combat/Animation",
-			"Cooked/Variant_Combat/Gameplay",
-			"Cooked/Variant_Combat/Interfaces",
-			"Cooked/Variant_Combat/UI",
-			"Cooked/Variant_SideScrolling",
-			"Cooked/Variant_SideScrolling/AI",
-			"Cooked/Variant_SideScrolling/Gameplay",
-			"Cooked/Variant_SideScrolling/Interfaces",
-			"Cooked/Variant_SideScrolling/UI"
+			"Cooked/Rice"
 		});
 
 		// Uncomment if you are using Slate UI
